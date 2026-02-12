@@ -1,0 +1,63 @@
+.add {
+    color: #E6007E;
+}
+
+.parameter {
+    gap: 3px;
+    justify-content: space-between;
+}
+
+.div {
+    flex-direction: column;
+    font-size: 15px;
+}
+
+@media(max-width:500px) {
+    .parameter {
+        width: 70vw;
+        font-size: 12px;
+        gap: 5vw;
+    }
+    .add {
+        font-size: 14px;
+    }
+    .mP {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .des {
+        height: 15%;
+    }
+}
+
+.des {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: #E6007E 1px solid;
+    border-radius: 8px;
+    padding: 4px 8px;
+    margin-top: 8px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.mPrice {
+    display: flex;
+    gap: 50px;
+}
+
+.mP {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.mTitle {
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--text);
+    height: 101%;
+}
